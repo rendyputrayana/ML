@@ -3,9 +3,9 @@ import pandas as pd
 import pickle
 import os
 
-model_directory = r'C:\Users\ASUS\Desktop\Folder pengumpulan\TGS ML'
 
-model_path = os.path.join(model_directory, 'rf_diabetes_model.pkl')
+
+model_path = 'rf_diabetes_model.pkl'
 
 if(os.path.exists(model_path)):
     try:
